@@ -1,22 +1,21 @@
-$high-emph: rgba(white, 0.87);
-$med-emph: rgba(white, 0.69); 
-$low-emph: rgba(white, 0.38);
-$dark-grey : #121212; 
-// $dark-grey : #1F1B24;
-$overlay: mix($dark-grey, white, 95%);
-$overlay-light: mix($dark-grey, white, 86%);
+$high-emph: #FFFFFF;          // White
+$med-emph: #58595B;           // Dark Gray
+$low-emph: #000000;           // Black
+$dark-grey: #121212;          // Dark Gray
+$overlay: mix($dark-grey, #FFFFFF, 95%);
+$overlay-light: mix($dark-grey, #FFFFFF, 86%);
 
-html, body, input, textarea, select, button {   
-  color: $high-emph !important;
-  background-color: $dark-grey !important;
+html, body, input, textarea, select, button {
+    color: $high-emph !important;
+    background-color: $dark-grey !important;
 }
 
 a {
-    color: rgb(75, 186, 255) !important;
+    color: #FF8200 !important;  // Orange
 }
 
 a:hover {
-    color:$high-emph !important;
+    color: $high-emph !important;
 }
 
 .site-title, .site-title:visited, .site-nav, .page-link {
@@ -33,7 +32,6 @@ a:hover {
 }
 
 pre, code {
-    // BVas a lighter colour to better highlight short code words
     border-color: $overlay-light;
     background-color: $overlay;
 }
@@ -60,13 +58,13 @@ pre, code {
     background-color: $dark-grey !important;
 }
 
-table th{
+table th {
     background-color: $overlay;
     border-color: $overlay-light;
     color: $high-emph;
 }
 
-table td{
+table td {
     background-color: $dark-grey;
     border-color: $overlay-light;
     color: $med-emph;
@@ -91,13 +89,13 @@ li .post-meta-description {
     color: $med-emph !important;
 }
 
-.search-result-preview{
-    color: lightgray !important; 
+.search-result-preview {
+    color: lightgray !important;
 }
 
 .search-result-highlight {
-    color:yellow !important;
-    font-weight:bold !important;
+    color: yellow !important;
+    font-weight: bold !important;
 }
 
 .search-results-list-item .search-result-title {
