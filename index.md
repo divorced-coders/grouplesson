@@ -2,8 +2,6 @@
 layout: home
 search_exclude: true
 ---
-A modified blog for CSA Based on Fastpages- Tirth Thakkar & Haseeb Beg   
-
-
+Our Group Lesson Blog for Spring/Thymeleaf
 
 # Posts
